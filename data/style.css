@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    zoom: 1.15;
+}
+
+.card {
+    background: white;
+    padding: 25px 20px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.timer-box {
+    margin-bottom: 12px;
+    text-align: left;
+    background: #f8f9fa;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+.timer-box label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.timer-box input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: #0056b3;
+}
+
+.on { color: #28a745; font-weight: bold; }
+.off { color: #dc3545; font-weight: bold; }
